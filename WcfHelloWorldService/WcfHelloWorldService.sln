@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfHelloWorldService", "WcfHelloWorldService\WcfHelloWorldService.csproj", "{C886B06E-557B-4F03-9603-9A4F1835C1DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldServiceClient", "HelloWorldServiceClient\HelloWorldServiceClient.csproj", "{19A709C8-1D90-4F16-9C3D-763B029F3C00}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C886B06E-557B-4F03-9603-9A4F1835C1DB} = {C886B06E-557B-4F03-9603-9A4F1835C1DB}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{C886B06E-557B-4F03-9603-9A4F1835C1DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C886B06E-557B-4F03-9603-9A4F1835C1DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C886B06E-557B-4F03-9603-9A4F1835C1DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19A709C8-1D90-4F16-9C3D-763B029F3C00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19A709C8-1D90-4F16-9C3D-763B029F3C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19A709C8-1D90-4F16-9C3D-763B029F3C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19A709C8-1D90-4F16-9C3D-763B029F3C00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
